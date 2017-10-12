@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fme_flumore_dll_caller", "fme_flumore_dll_caller\flumore_dll_caller.vcxproj", "{C64BB7CC-6613-4E39-B971-88E998A02013}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA07F226-EF80-4965-B61D-25C9DE58E433} = {CA07F226-EF80-4965-B61D-25C9DE58E433}
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "flumore_parser", "flumore_parser\flumore_parser.fsproj", "{A638D075-585C-4F2D-91AF-F332DC5C056D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fme_flumore_reader", "fme_flumore_reader\flumore_reader.vcxproj", "{CA07F226-EF80-4965-B61D-25C9DE58E433}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CWrapper", "CLibraryCaller\CWrapper.vcxproj", "{695BFF8A-5528-5A96-7E41-483E6A6D8F24}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A638D075-585C-4F2D-91AF-F332DC5C056D} = {A638D075-585C-4F2D-91AF-F332DC5C056D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Debug|x64.ActiveCfg = Debug|x64
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Debug|x64.Build.0 = Debug|x64
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Release|x64.ActiveCfg = Release|x64
+		{C64BB7CC-6613-4E39-B971-88E998A02013}.Release|x64.Build.0 = Release|x64
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Debug|x64.Build.0 = Debug|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Release|x64.ActiveCfg = Release|Any CPU
+		{A638D075-585C-4F2D-91AF-F332DC5C056D}.Release|x64.Build.0 = Release|Any CPU
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Debug|x64.ActiveCfg = Debug|x64
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Debug|x64.Build.0 = Debug|x64
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Release|Any CPU.ActiveCfg = Release|Win32
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Release|x64.ActiveCfg = Release|x64
+		{CA07F226-EF80-4965-B61D-25C9DE58E433}.Release|x64.Build.0 = Release|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Debug|x64.ActiveCfg = Debug|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Debug|x64.Build.0 = Debug|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Release|Any CPU.ActiveCfg = Release|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Release|x64.ActiveCfg = Release|x64
+		{695BFF8A-5528-5A96-7E41-483E6A6D8F24}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FFF56B6-C9EC-480B-84D8-BB3560671BF2}
+	EndGlobalSection
+EndGlobal
