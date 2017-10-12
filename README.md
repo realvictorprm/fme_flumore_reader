@@ -1,6 +1,6 @@
 This software is used in the environment department Baden-Württemberg in Germany. Therefore the description is both in English and German. 
 
-##[English]
+## English
 
 This repository contains the complete project for building a FME-Reader for the flood simulation data format `FLUMORE`. 
 
@@ -28,7 +28,7 @@ Usage:
 
 If there are any bugs and or questions, please open issues here. All workflow is supposed to be here.
 
-[German]
+## Deutsch
 
 Dieses Verzeichnis beinhaltet die Quelldateien samt Erstellsystem des FME-Reader für das Flutsimulationsdaten-Format `FLUMORE`. 
 
