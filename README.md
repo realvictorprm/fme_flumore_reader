@@ -40,8 +40,8 @@ Dieses Verzeichnis beinhaltet die Quelldateien samt Erstellsystem des FME-Reader
 - Mindestens unterstützt ist Windows 7. Vorherige Versionen von Windows funktionieren nicht da diese bestimmte Systemaufrufe nicht unterstützen. 
 
 ### Erstellanweisung:
-1. Definiere die Umgebungsvariable `MONO64`. Diese muss zwingend zum Installationsordner von der Mono 64-bit Version zeigen.
-2. Definiere die Umgebungsvariable `FME_HOME`. Diese muss zwingend zum Installationsordner von der FME 64-bit Version zeigen.
+1. Definieren Sie die Umgebungsvariable `MONO64`. Diese muss zwingend zum Installationsordner von der Mono 64-bit Version zeigen.
+2. Definieren Sie die Umgebungsvariable `FME_HOME`. Diese muss zwingend zum Installationsordner von der FME 64-bit Version zeigen.
 3. Erstellen Sie die Visual Studio Solution im `Release` Modus.
 4. Bereit zur Benutzung, siehe Punkt `Benutzung`
 
@@ -56,7 +56,7 @@ In diesem werden die benötigten Dateien vor dem Kopiervorgang zwischengespeiche
 5. Nun kann der Reader verwendet werden.
 
 
-Bei Fehlern, Bugs oder Fragen bitte hier auf GitHub `Issues` öffnen.
+Bei Fehlern, Bugs oder Fragen bitte hier auf GitHub ein `Issue` öffnen.
 
 Licensed under Apache License 2.0 / Lizensiert unter der Apache Lizenz Version 2.0
 For more information please look into LICENSE.md 
